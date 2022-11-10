@@ -19,7 +19,7 @@
 
   /* Colores */
   --bg-color: #1a805b;
-  --text-primary: #ee991a;
+  --text-primary: #242635;
 
   /* Typografia */
   --body-font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
@@ -146,6 +146,10 @@ img {
 .bxs-user-circle {
   color: #d1ceca;
 }
+.bx {
+  color: #d4252d;
+}
+
 @media (max-width: 768px) {
   .navbar__menu {
     position: fixed;
@@ -168,7 +172,7 @@ img {
   color: #d1ceca;
 }
 .logo {
-  width: 80px;
+  width: 60px;
 }
 
 .btn__close {
@@ -207,7 +211,7 @@ img {
 }
 
 .navbar__link {
-  color: #d1ceca;
+  color: #242635;
   font-size: 1.2rem;
   font-weight: var(--font-semi-bold);
 }
@@ -398,7 +402,7 @@ img {
 
 /* ============= Footer ============= */
 .footer {
-  background-color: #111;
+  background-color: #242635;
   color: #efefef;
   padding-bottom: 2rem;
 }
@@ -434,6 +438,9 @@ img {
   .section {
     padding: 6rem 0 5rem;
   }
+  .logo {
+    width: 80px;
+  }
 
   .btn__open,
   .btn__close {
@@ -448,7 +455,9 @@ img {
   .navbar__item {
     margin: 0;
   }
-
+  .navbar__link {
+    color: #d1ceca;
+  }
   .home__container {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
